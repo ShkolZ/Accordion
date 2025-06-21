@@ -1,5 +1,6 @@
 import "./App.css";
 import Accordion from "./Components/Accordion";
+import Header from "./Components/Header";
 
 function App() {
   const exampleInfo = [
@@ -20,7 +21,8 @@ function App() {
   ];
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center flex-wrap">
+      <Header />
       <Accordion props={exampleInfo} />
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function AccordionItem(props: any) {
   const [isShow, setShow] = useState(false);
